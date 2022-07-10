@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="901e198d-ec2d-4a64-b5cb-287f8b183711" name="Changes" comment="Spring MVC - Lesson #17 - Контроллеры. @Controller">
+    <list default="true" id="901e198d-ec2d-4a64-b5cb-287f8b183711" name="Changes" comment="Spring MVC - Lesson #19 - параметры GET запросов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/controllers/FirstController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
@@ -153,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657439114674</updated>
       <workItem from="1657439116987" duration="328000" />
-      <workItem from="1657439457925" duration="6377000" />
+      <workItem from="1657439457925" duration="7885000" />
     </task>
     <task id="LOCAL-00001" summary="Spring MVC - Lesson #15">
       <created>1657441408322</created>
@@ -176,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657444516537</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Spring MVC - Lesson #19 - параметры GET запросов">
+      <created>1657450296441</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657450296441</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +204,7 @@
     <MESSAGE value="Spring MVC - Lesson #15" />
     <MESSAGE value="Spring MVC - Lesson #16 - конфигурация с помощью кода" />
     <MESSAGE value="Spring MVC - Lesson #17 - Контроллеры. @Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring MVC - Lesson #17 - Контроллеры. @Controller" />
+    <MESSAGE value="Spring MVC - Lesson #19 - параметры GET запросов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring MVC - Lesson #19 - параметры GET запросов" />
   </component>
 </project>
