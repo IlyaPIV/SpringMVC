@@ -9,9 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="901e198d-ec2d-4a64-b5cb-287f8b183711" name="Changes" comment="Spring MVC - Lesson #20 - Model. Передача от контроллера к представлению">
+    <list default="true" id="901e198d-ec2d-4a64-b5cb-287f8b183711" name="Changes" comment="Spring MVC - Lesson #21 - CRUD, паттерн DAO (Data Access Object)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/controllers/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/models/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +158,8 @@
       <workItem from="1657439457925" duration="8505000" />
       <workItem from="1657454154525" duration="8000" />
       <workItem from="1657478416020" duration="5000" />
-      <workItem from="1657648054570" duration="1950000" />
+      <workItem from="1657648054570" duration="2180000" />
+      <workItem from="1657824526201" duration="1451000" />
     </task>
     <task id="LOCAL-00001" summary="Spring MVC - Lesson #15">
       <created>1657441408322</created>
@@ -193,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657451829997</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Spring MVC - Lesson #21 - CRUD, паттерн DAO (Data Access Object)">
+      <created>1657652241512</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657652241512</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Spring MVC - Lesson #21 - CRUD, паттерн DAO (Data Access Object)">
+      <created>1657652250926</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657652250926</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +233,7 @@
     <MESSAGE value="Spring MVC - Lesson #17 - Контроллеры. @Controller" />
     <MESSAGE value="Spring MVC - Lesson #19 - параметры GET запросов" />
     <MESSAGE value="Spring MVC - Lesson #20 - Model. Передача от контроллера к представлению" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring MVC - Lesson #20 - Model. Передача от контроллера к представлению" />
+    <MESSAGE value="Spring MVC - Lesson #21 - CRUD, паттерн DAO (Data Access Object)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring MVC - Lesson #21 - CRUD, паттерн DAO (Data Access Object)" />
   </component>
 </project>
