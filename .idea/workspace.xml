@@ -9,16 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="901e198d-ec2d-4a64-b5cb-287f8b183711" name="Changes" comment="Spring MVC - Lesson #22 - @ModelAttribute, HTML формы">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="901e198d-ec2d-4a64-b5cb-287f8b183711" name="Changes" comment="Spring MVC - Lesson #23 - CRUD приложение. PATCH, DELETE запросы. (косяк с PATCH)">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,20 +52,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ebf85741b99c595fd8e371acde50121c&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "spring.configuration.checksum": "ebf85741b99c595fd8e371acde50121c"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="I:\Java_projects\SpringMVC\src\main\resources" />
@@ -175,7 +180,10 @@
       <workItem from="1657648054570" duration="2180000" />
       <workItem from="1657824526201" duration="1736000" />
       <workItem from="1658162412610" duration="5691000" />
-      <workItem from="1658168149878" duration="427000" />
+      <workItem from="1658168149878" duration="564000" />
+      <workItem from="1658343002184" duration="2048000" />
+      <workItem from="1658509201132" duration="2420000" />
+      <workItem from="1658569825499" duration="2708000" />
     </task>
     <task id="LOCAL-00001" summary="Spring MVC - Lesson #15">
       <created>1657441408322</created>
@@ -233,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657826270297</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Spring MVC - Lesson #23 - CRUD приложение. PATCH, DELETE запросы. (косяк с PATCH)">
+      <created>1658168704460</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658168704460</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +273,8 @@
     <MESSAGE value="Spring MVC - Lesson #20 - Model. Передача от контроллера к представлению" />
     <MESSAGE value="Spring MVC - Lesson #21 - CRUD, паттерн DAO (Data Access Object)" />
     <MESSAGE value="Spring MVC - Lesson #22 - @ModelAttribute, HTML формы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring MVC - Lesson #22 - @ModelAttribute, HTML формы" />
+    <MESSAGE value="Spring MVC - Lesson #23 - CRUD приложение. PATCH, DELETE запросы. (косяк с PATCH)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring MVC - Lesson #23 - CRUD приложение. PATCH, DELETE запросы. (косяк с PATCH)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

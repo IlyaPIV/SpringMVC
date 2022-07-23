@@ -1,8 +1,20 @@
 package my.springcourse.mvc.models;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
+
 public class Person {
     private int id;
+    @NotEmpty(message = "Name should not be empty") //не пустые
+    @Size(min = 2, max = 50, message = "Name should be between 2 and 30 characters")    //длина
     private String name;
+    @Min(value = 0, message = "Age should be greater than 0")         //не отрицательные
+    private int age;
+    @NotEmpty(message = "email should not be empty")
+    @Email(message = "email should be correct")                       //regex проверка
+    private String email;
 
     public Person() {
     }
@@ -10,6 +22,13 @@ public class Person {
     public Person(int id, String name) {
         this.id = id;
         this.name = name;
+    }
+
+    public Person(int id, String name, int age, String email) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.email = email;
     }
 
     public int getId() {
@@ -26,5 +45,21 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
