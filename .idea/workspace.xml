@@ -9,9 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="901e198d-ec2d-4a64-b5cb-287f8b183711" name="Changes" comment="Spring MVC - Lesson #23 - CRUD приложение. PATCH, DELETE запросы. (косяк с PATCH)">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="901e198d-ec2d-4a64-b5cb-287f8b183711" name="Changes" comment="Spring MVC - Lesson #26 - SQL инъекции и PreparedStatement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/springcourse/mvc/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -179,7 +180,7 @@
       <workItem from="1658509201132" duration="2420000" />
       <workItem from="1658569825499" duration="2708000" />
       <workItem from="1658653688481" duration="632000" />
-      <workItem from="1658655485117" duration="744000" />
+      <workItem from="1658655485117" duration="3197000" />
     </task>
     <task id="LOCAL-00001" summary="Spring MVC - Lesson #15">
       <created>1657441408322</created>
@@ -244,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658168704460</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Spring MVC - Lesson #26 - SQL инъекции и PreparedStatement">
+      <created>1658656375673</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658656375673</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +278,8 @@
     <MESSAGE value="Spring MVC - Lesson #21 - CRUD, паттерн DAO (Data Access Object)" />
     <MESSAGE value="Spring MVC - Lesson #22 - @ModelAttribute, HTML формы" />
     <MESSAGE value="Spring MVC - Lesson #23 - CRUD приложение. PATCH, DELETE запросы. (косяк с PATCH)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring MVC - Lesson #23 - CRUD приложение. PATCH, DELETE запросы. (косяк с PATCH)" />
+    <MESSAGE value="Spring MVC - Lesson #26 - SQL инъекции и PreparedStatement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring MVC - Lesson #26 - SQL инъекции и PreparedStatement" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
